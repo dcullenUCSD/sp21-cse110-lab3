@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Journal</title>
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to my 3 day journal</h1>
+            <div>Make yourself at home</div>
+            <span>Or don't, I'm not your mom</span>
+            <h2>Table of Contents</h2>
+            <nav>
+                <ul>
+                    <li><a href="#friday">Friday</a></li>
+                    <li><a href="#saturday">Saturday</a></li>
+                    <li><a href="sunday">Sunday</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>The Journals</h2>
+            <h3>Friday</h3>
+            <p>
+                Today I need to start preparing for my dnd campaign, since we have a
+                <em>very important</em> session coming up <b>tomorrow</b>, and I need to be-
+            <br>
+            <i>Player texts me, saying they're going to miss the session</i></p>
+            <p>
+                ok change of plans.
+            </p>
+            <hr>I spent most of the day playing video games</hr>
+            <h3>Saturday</h3>
+            <p>
+                One of my favorite video games to play recently is a game called GTFO,
+                a <strong>very hard</strong> first person shooter, co-op, horror game. At the end
+                of this month, the levels will be removed and replaced with new ones. With 
+                that in mind, my squad and I chose to play this most of the game to try and
+                get to the hardest levels. My squad consisted of:
+                <ol>
+                    <li>me</li>
+                    <li>my gf</li>
+                    <li>Steve, my roommate</li>
+                    <li>my other roommate</li>
+                </ol>
+                <details>
+                    <summary>steve is a pretty cool guy</summary>
+                    <img class="picture"
+                        src = steve.jpg
+                        alt ="my roommate steve"
+                        width = 300>
+                </details>
+                <p>the others are cool too, but not as cool as steve</p>
+                <p>But anyways, GTFO is a very fun game. It has great music:</p>
+                <figure>
+                    <audio
+                        controls
+                        src="gtfobattle.mp3">
+                    </audio>
+                </figure>
+                <p>Here's the trailer from way back in 2017 if you're interested</p>
+                <video controls width="500">
+                    <source src="gtfotrailer.mp4"
+                        type = "video/webm">
+                </video>
+            </p>
+            <h3>Sunday</h3>
+            <p>On sunday I worked on this assignment</p>
+        </main>
+        <footer>
+            <form action="" method="get" class="the-form">
+                <fieldset>
+                    <legend>Choose the day of the week</legend>
+
+                    <input type="radio" id="monday" name="day">
+                    <label for="monday">Monday</label><br/>
+
+                    <input type="radio" id="tuesday" name="day">
+                    <label for="tuesday">Tuesday</label><br/>
+
+                    <input type="radio" id="wednesday" name="day">
+                    <label for="wednesday">Wednesday</label><br/>
+                </fieldset>
+                <label for="entry">Enter your entry:</label><br/>
+                <textarea id="entry" name="entry"
+                    rows="5" cols="40">
+                </textarea> <br/>
+                <label for="rating-choice">Choose a rating:</label><br/>
+                <input list="ratings" id="rating-choice" name="rating-choice" />
+                <datalist id="ratings">
+                    <option value="goods"></option>
+                    <option value="epic"></option>
+                    <option value="poggers"></option>
+                </datalist> <br/>
+                <label for="color-select">Choose a color... as long as it's black</label><br/>
+                <select name="color" id="color-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="">Black</option>
+                </select> <br/>
+                <button class="button" type="button">Press this button</button>
+            </form>
+        </footer>
+    </body>
+</html>
