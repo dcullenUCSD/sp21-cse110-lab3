@@ -3,6 +3,10 @@
     src: url(Tangerine-Regular.ttf);
 }
 
+* {
+    color: whitesmoke;
+}
+
 body {
     background-color: #2e3742;
     color: whitesmoke;
@@ -10,7 +14,7 @@ body {
     font-size: 0.7cm;
 }
 
-h1 {
+header > h1 {
     position: -webkit-sticky;
     position: sticky;
     top: 10px;
@@ -21,7 +25,7 @@ h1 {
 }
 
 .block,
-li {
+ol li {
     border: 0.1cm white;
     border-style: dashed;
     background-color: palevioletred;
